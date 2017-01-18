@@ -1,0 +1,107 @@
+body{
+	text-align: center;
+}
+
+.firstline {
+   font-size: 48px;
+   color:#99FF66;
+}
+
+.secondline{
+	font-size: 36px;
+	color: blue;
+}
+
+.name{
+	font-size: 24px;
+	color: #808080;
+}
+
+.error{
+	color: red;
+}
+
+.res-image{
+}
+
+.dropdowns{
+	margin-top: 10px;
+	margin-left: 90px;
+}
+
+select{
+	margin-left: 1px;
+}
+
+.input-resp{
+	margin-top: 20px;
+	font-size: 76px;
+	margin-left: 90px;
+}
+
+.ohm-img{
+	height: 60px;
+}
+
+.locked{
+	text-align: left;
+}
+
+.quantity{
+	margin-left: 90px;
+}
+
+.db-tab{
+	margin-left:auto;
+	margin-right:auto;
+	border: 6px solid blue;
+	border-collapse: collapse;
+}
+
+.top-row{
+	background-color:#DEB887;
+}
+
+.table1{
+
+}
+
+td{
+	border: 2px solid blue;
+}
+
+.nope{
+	border: 0px solid;
+}
+
+.boxes{
+}
+
+.box1{
+	clear: left;
+	width: 65px;
+	height: 20px;
+	background-color: red;
+}
+
+.box2{
+	clear: left;
+	width: 65px;
+	height: 20px;
+	background-color: red;
+}
+
+.box3{
+	clear: left;
+	width: 65px;
+	height: 20px;
+	background-color: red;
+}
+
+.box4{
+	clear: left;
+	width: 65px;
+	height: 20px;
+	background-color: red;
+}
+

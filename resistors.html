@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Resistors</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+	</head>
+	<body>
+		<div class = "locked">
+	    	<image src="../images/resistor-color-chart.jpg" class = "res-image">
+			<div class="dropdowns">
+				<form method="post">
+		    		<select name="first">
+		    			{{opt1}}
+					</select>
+					<select name="second">
+						{{opt2}}
+					</select>
+					<select name="third">
+						{{opt3}}
+					</select>
+					<select name="multiplier" class ="multiplier">
+						{{opt4}}
+					</select>
+					<input type="submit" value="submit">
+				</form>
+			</div>
+			<div class="input-resp">				
+				{%if img%}
+					<div class="boxes">
+						<table class="table1">
+							{{boxxy}}
+						</table>
+					</div>
+					{{calc}}
+					<image src="../images/ohm.png" class="ohm-img">
+				{%endif%}
+			</div><br>
+			{%if img%}
+			<div class="quantity">
+				<form method="post">
+					Quantity 
+					<input name="quantity" type="text"></input>
+					<input type="submit" value="Add to DB"> 			
+					<a href="/resistors/database"> Check Database</a>
+			</div>
+			{%endif%}
+		</div>
+	</body>
+</html>
